@@ -34,7 +34,7 @@ local Tabs = {
 
 
 
-local SenseESPInterface = loadstring(game:HttpGet("https://raw.githubusercontent.com/boshyxd/rayfield/refs/heads/main/SenseSource.luau"))()
+local SenseESPInterface = https://raw.githubusercontent.com/topoppflo8-beep/Chopzz.GG/refs/heads/main/chopzz.gg
 
 if SenseESPInterface then
     Library:Notify("Thanks For Using Void.cc", 2)
