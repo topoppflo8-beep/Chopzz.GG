@@ -1,5 +1,5 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-local executor = identifyexecutor and identifyexecutor() or "Macsploit"
+local executor = identifyexecutor and identifyexecutor() or "Unknown Executor"
 
 local customTheme = {
     TextColor = Color3.fromRGB(255, 255, 255),
