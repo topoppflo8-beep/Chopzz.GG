@@ -35,7 +35,7 @@ local customTheme = {
 }
 
 local Window = Rayfield:CreateWindow({
-    Name = "Chopzz.GG| " .. executor,
+    Name = "Tuuf's Hub | " .. executor,
     Icon = nil,
     LoadingTitle = "",
     LoadingSubtitle = "",
@@ -48,19 +48,19 @@ local Window = Rayfield:CreateWindow({
         FileName = "BigHub"
     },
     Discord = {
-        Enabled = true,
-        Invite = "https://discord.gg/seu8yx6zD4",
+        Enabled = false,
+        Invite = "",
         RememberJoins = true
     },
-    KeySystem = true,
+    KeySystem = false,
     KeySettings = {
         Title = "",
         Subtitle = "Authentication Required",
-        Note = "Get your key at: https://discord.gg/seu8yx6zD4",
+        Note = "Get your key at: https://discord.gg/mudFqDYA",
         FileName = "jc_hub_key",
         SaveKey = true,
         GrabKeyFromSite = false,
-        Key = { "NewChopzz" },
+        Key = { "" },
         Theme = customTheme
     }
 })
